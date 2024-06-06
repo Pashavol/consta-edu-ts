@@ -36,7 +36,7 @@ type Item = {
   const getItemView = (item: Item) => item.form;
   const getItemStatus = (item: Item) => item.color;
   
-  export const DemoExample = () => {
+  export const BadgeGroupExample = () => {
     return (
       <BadgeGroup
         items={[...items]}
@@ -44,9 +44,12 @@ type Item = {
         getItemLabel={getItemLabel}
         getItemView={getItemView}
         getItemStatus={getItemStatus}
-        size="l"
-        form="round"
-        fitMode="wrap"
       />
     );
   };
+
+  
+  
+     
+      
+
